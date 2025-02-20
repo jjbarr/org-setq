@@ -5,7 +5,7 @@
 ;; Keywords: org config
 ;; Version: 0.1
 ;; URL: https://github.com/jjbarr/org-setq
-;; Package-Requires: ((emacs "29.1") (cl-lib) (org "9.7"))
+;; Package-Requires: ((emacs "29.1") cl-lib (org "9.7"))
 ;; SPDX-License-Identifier: GPL-3.0-or-later
 ;;
 ;; This file is not part of GNU Emacs.
