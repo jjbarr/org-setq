@@ -60,7 +60,7 @@
 (defun org-setq-load-from-file (file)
   "Load org-setq variable definitions from FILE."
   (let ((bindings (org-setq-bindings-for-file file)))
-    (dolist ((binding bindings))
+    (cl-dolist (binding bindings)
       (set (car binding) (cdr binding)))))
 
 ;;;###autoload
