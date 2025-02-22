@@ -1,4 +1,4 @@
-;;; org-setq.el --- use Org to store elisp variables -*- lexical-scope: t -*-
+;;; org-setq.el --- use Org to store elisp variables -*- lexical-binding: t -*-
 ;; Copyright (C) 2025 Joshua Barrett
 ;; Author: Joshua Barrett <jjbarr@ptnote.dev>
 ;; Created: 20th Feb 2025
